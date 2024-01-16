@@ -28,20 +28,22 @@ nav ul li {
     padding: 0 1em;
 }
 
-.search-box {
-    display: none;
-    position: absolute;
-    right: 5%;
-    top: 3em;
-    background-color: #1a1a1a;
-    padding: 0.5em;
-    border-radius: 5px;
+.search-container {
+    position: relative;
+    display: flex;
+    align-items: center;
 }
 
-.search-box input[type="text"] {
-    padding: 0.5em;
-    border: none;
-    border-radius: 5px;
+.search-bar {
+    display: none;
+    padding: 5px;
+    font-size: 16px;
+}
+
+.search-icon {
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
 }
 
 footer {
