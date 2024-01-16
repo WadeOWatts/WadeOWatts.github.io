@@ -1,0 +1,71 @@
+/* Stylesheet for Wade's Blog */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Helvetica", "Arial","LiHei Pro","黑體-繁","微軟正黑體", sans-serif;
+    background-color: #121212; /* Dark background for dark mode */
+    color: white; /* Light text */
+    -webkit-user-select: none; /* Disable text selection on webkit browsers */
+    -moz-user-select: none; /* Disable text selection on Firefox */
+    -ms-user-select: none; /* Disable text selection on IE */
+    user-select: none; /* Standard way to disable text selection */
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 5%;
+    background-color: #1a1a1a; /* Slightly lighter shade for the header */
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li {
+    padding: 0 1em;
+}
+
+.search-box {
+    display: none;
+    position: absolute;
+    right: 5%;
+    top: 3em;
+    background-color: #1a1a1a;
+    padding: 0.5em;
+    border-radius: 5px;
+}
+
+.search-box input[type="text"] {
+    padding: 0.5em;
+    border: none;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 1em 0;
+    background-color: #1a1a1a;
+}
+
+/* Responsive design adjustments */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 1.5em;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    nav ul li {
+        padding: 0.5em 0;
+    }
+
+    .search-box {
+        right: 10%;
+    }
+}
