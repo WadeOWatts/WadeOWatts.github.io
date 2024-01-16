@@ -19,6 +19,10 @@ header {
     background-color: #1a1a1a; /* Slightly lighter shade for the header */
 }
 
+.my-list > li {
+	cursor: pointer;
+}
+
 nav ul {
     list-style-type: none;
     display: flex;
