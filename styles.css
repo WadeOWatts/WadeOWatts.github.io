@@ -17,10 +17,7 @@ header {
     align-items: center;
     padding: 1em 5%;
     background-color: #1a1a1a; /* Slightly lighter shade for the header */
-}
-
-.my-list > li {
-	cursor: pointer;
+    cursor: pointer;
 }
 
 nav ul {
@@ -30,6 +27,7 @@ nav ul {
 
 nav ul li {
     padding: 0 1em;
+    cursor: pointer;
 }
 
 .search-container {
