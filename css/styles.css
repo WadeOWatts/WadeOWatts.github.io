@@ -128,12 +128,14 @@ article {
   }
 
 article p {
-    font-size: 16px;      /* 設置字體大小為12號 */
-    line-height: 1.5;     /* 設置1.5倍行高 */
-    letter-spacing: 1px;  /* 字距加寬1點 */
-    margin-top: 0.75em;   /* 設置段落上方間隔，相當於0.5倍行高 */
-    margin-bottom: 0.75em;/* 設置段落下方間隔，相當於0.5倍行高 */
+    font-size: 16px; /* 或 1em */
+    letter-spacing: 0.93px; /* 或 0.058em */
+    text-align: justify; /* 左右對齊 */
+    line-height: 30.67px; /* 或 1.92em */
+    margin-top: 0; /* 與前段無距離 */
+    margin-bottom: 0; /* 與後段無距離 */
 }
+
 
 footer {
     text-align: center;
