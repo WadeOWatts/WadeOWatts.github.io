@@ -2,7 +2,7 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: "Helvetica", "Arial","LiHei Pro","黑體-繁","微軟正黑體", sans-serif;
+    font-family: "Helvetica", "Arial","LiHei Pro","新細明體","微軟正黑體", sans-serif;
     background-color: #121212; /* Dark background for dark mode */
     color: white; /* Light text */
     -webkit-user-select: none; /* Disable text selection on webkit browsers */
@@ -86,24 +86,23 @@ min-width: 120px;
 }
 
 .grid-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    display: grid;
     grid-template-columns: repeat(3, 1fr); /* 這將創建三個等寬的列 */
     grid-gap: 20px; /* 格子之間的間隙 */
     padding: 20px; /* 容器邊緣與格子之間的距離 */
     max-width: 1200px; /* 最大寬度，可根據需求調整 */
     margin: 0 auto; /* 左右邊界自動，以使容器水平居中 */
-}
-
-.grid-item {
-    width: calc(33% - 10px); /* 三列布局，考慮間隔 */
+  }
+  
+  .grid-item {
+    /* Flexbox 的 width 和 margin-bottom 可以保留或根據需要調整 */
     margin-bottom: 15px; /* 格子間距 */
     text-decoration: none; /* 移除超連結下劃線 */
     color: rgb(255, 255, 255); /* 文字顏色 */
     box-shadow: none; /* 初始無陰影 */
     transition: box-shadow 0.3s; /* 平滑過渡效果 */
-}
+  }
+  
 
 .grid-item img {
     width: 100%; /* 圖片填滿格子寬度 */
