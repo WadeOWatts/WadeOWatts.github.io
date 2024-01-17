@@ -35,6 +35,10 @@ nav ul li {
 nav li {
     position: relative;
 }
+
+nav li:hover > .dropdown {
+    display: block;
+}  
   
 nav a {
     display: block;
