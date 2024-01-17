@@ -89,8 +89,8 @@ min-width: 120px;
     display: grid;
     grid-template-columns: repeat(3, 1fr); /* 這將創建三個等寬的列 */
     grid-gap: 20px; /* 格子之間的間隙 */
-    padding: 20px; /* 容器邊緣與格子之間的距離 */
-    max-width: 1200px; /* 最大寬度，可根據需求調整 */
+    /* padding: 20px;  容器邊緣與格子之間的距離 */
+    max-width: 1000px; /* 最大寬度，可根據需求調整 */
     margin: 0 auto; /* 左右邊界自動，以使容器水平居中 */
   }
   
@@ -125,7 +125,6 @@ article {
     max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
-    padding: 300px;
   }
 
 article p {
