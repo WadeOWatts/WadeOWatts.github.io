@@ -87,21 +87,21 @@ min-width: 120px;
 
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* 這將創建三個等寬的列 */
+    grid-template-columns: repeat(3, 320px); /* 創建三個固定為320px寬的列 */
     grid-gap: 20px; /* 格子之間的間隙 */
-    /* padding: 20px;  容器邊緣與格子之間的距離 */
-    max-width: 1000px; /* 最大寬度，可根據需求調整 */
-    margin: 0 auto; /* 左右邊界自動，以使容器水平居中 */
-  }
+    justify-content: center; /* 當容器寬度大於所有格子的總寬度時，使它們居中 */
+    padding: 20px; /* 容器的內邊距 */
+    margin: 0 auto; /* 上下邊界為0，左右自動，以使容器水平居中 */
+}
   
-  .grid-item {
-    /* Flexbox 的 width 和 margin-bottom 可以保留或根據需要調整 */
+.grid-item {
     margin-bottom: 15px; /* 格子間距 */
     text-decoration: none; /* 移除超連結下劃線 */
     color: rgb(255, 255, 255); /* 文字顏色 */
     box-shadow: none; /* 初始無陰影 */
     transition: box-shadow 0.3s; /* 平滑過渡效果 */
-  }
+}
+  
   
 
 .grid-item img {
@@ -128,7 +128,7 @@ article {
   }
 
 article p {
-    font-size: 30px;      /* 設置字體大小為12號 */
+    font-size: 16px;      /* 設置字體大小為12號 */
     line-height: 1.5;     /* 設置1.5倍行高 */
     letter-spacing: 1px;  /* 字距加寬1點 */
     margin-top: 0.75em;   /* 設置段落上方間隔，相當於0.5倍行高 */
