@@ -37,16 +37,22 @@ nav li {
 }
   
 nav a {
-display: block;
-padding: 10px;
-text-decoration: none;
-color: white;
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
 }
 
 .dropdown {
-display: none;
-position: absolute;
-top: 100%;
+    display: none;
+    position: absolute;
+    top: 100%;
+    background-color: black; /* 設置背景顏色為黑色 */
+    color: white; /* 設置文字顏色為白色，以提高可讀性 */
+}
+
+.dropdown a {
+    color: white; /* 確保下拉選單中的鏈接也是白色的 */
 }
 
 nav li:hover > .dropdown {
