@@ -28,3 +28,17 @@ document.querySelectorAll('nav li').forEach(function(everyitem){
         });
     });  
 
+// 獲取下拉選單開關和選單本身的元素
+var dropdownToggle = document.getElementById('dropdownToggle');
+var dropdownMenu = document.getElementById('dropdownMenu');
+
+// 設置點擊事件監聽器
+dropdownToggle.addEventListener('click', function(event) {
+  // 防止默認的超連結行為
+  event.preventDefault();
+  
+  // 切換選單的顯示狀態
+  dropdownMenu.classList.toggle('show');
+});
+
+
