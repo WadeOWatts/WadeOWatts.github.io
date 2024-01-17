@@ -47,7 +47,7 @@ nav a {
     display: none;
     position: absolute;
     top: 100%;
-    background-color: black; /* 設置背景顏色為黑色 */
+    background-color: #1a1a1a; /* 設置背景顏色為黑色 */
     color: white; /* 設置文字顏色為白色，以提高可讀性 */
 }
 
