@@ -13,27 +13,23 @@ document.addEventListener('DOMContentLoaded', function() {
     };
 });
 
-// 监听每个nav中的li元素
-document.querySelectorAll('nav li').forEach(function(everyitem){
-    everyitem.addEventListener('click', function(e){
-      // 查找这个li元素中的dropdown
-      let el = everyitem.querySelector('.dropdown');
-      // 如果找到了dropdown，切换它的显示状态
-      if(el) {
-        e.preventDefault(); // 防止默认的超链接行为
-        el.classList.toggle('show'); // 切换show类
-      }
+document.addEventListener('DOMContentLoaded', function() {
+    var dropdownToggle = document.querySelector('.dropdownToggle');
+    var dropdownMenu = document.getElementById('dropdownMenu');
+
+    // 滑鼠移入和移出事件
+    dropdownToggle.addEventListener('mouseenter', function() {
+        dropdownMenu.classList.add('active');
     });
-  });
-  
-  // 监听页面点击事件，以便在点击其他地方时关闭下拉菜单
-  window.addEventListener('mouseup', function(event){
-    let dropdowns = document.querySelectorAll('.dropdown');
-    dropdowns.forEach(function(dropdown){
-      // 如果点击的不是下拉菜单本身，且下拉菜单是显示状态，就隐藏它
-      if(event.target.closest('.dropdown') === null && dropdown.classList.contains('show')){
-        dropdown.classList.remove('show');
-      }
+    dropdownToggle.addEventListener('mouseleave', function() {
+        dropdownMenu.classList.remove('active');
     });
-  });
+
+    // 點擊事件
+    dropdownToggle.addEventListener('click', function(event) {
+        event.preventDefault(); // 阻止連結的預設行為
+        dropdownMenu.classList.toggle('active');
+    });
+});
+
   

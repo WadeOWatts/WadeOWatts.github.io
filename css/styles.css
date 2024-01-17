@@ -57,16 +57,16 @@ nav a {
     color: white; /* 設置文字顏色為白色，以提高可讀性 */
 }
 
-.dropdown.show {
+.dropdownToggle:hover + .dropdown {
+    display: block;
+}
+
+.dropdown.active {
     display: block;
 }
 
 .dropdown a {
     color: white; /* 確保下拉選單中的鏈接也是白色的 */
-}
-
-nav li:hover > .dropdown {
-display: block;
 }
 
 .dropdown > li:first-child {
