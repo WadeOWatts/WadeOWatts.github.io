@@ -32,7 +32,7 @@ nav ul li {
     cursor: pointer;
 }
 
-nav li {
+nav li a {
     position: relative;
     top: 50%; /* 調整這個值來垂直居中 */
     transform: translateY(-50%); /* 這將校正元素，使其正確居中 */
