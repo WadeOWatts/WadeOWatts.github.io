@@ -13,32 +13,27 @@ document.addEventListener('DOMContentLoaded', function() {
     };
 });
 
+// 监听每个nav中的li元素
 document.querySelectorAll('nav li').forEach(function(everyitem){
     everyitem.addEventListener('click', function(e){
+      // 查找这个li元素中的dropdown
       let el = everyitem.querySelector('.dropdown');
-      if(el) el.style.display = el.style.display === 'block' ? 'none' : 'block';
+      // 如果找到了dropdown，切换它的显示状态
+      if(el) {
+        e.preventDefault(); // 防止默认的超链接行为
+        el.classList.toggle('show'); // 切换show类
+      }
     });
   });
-    window.addEventListener('mouseup', function(event){
-        let box = document.querySelectorAll('.dropdown');
-        box.forEach(function(element){
-        if(event.target != element){
-            element.style.display = 'none';
-        }
-        });
-    });  
-
-// 獲取下拉選單開關和選單本身的元素
-var dropdownToggle = document.getElementById('dropdownToggle');
-var dropdownMenu = document.getElementById('dropdownMenu');
-
-// 設置點擊事件監聽器
-dropdownToggle.addEventListener('click', function(event) {
-  // 防止默認的超連結行為
-  event.preventDefault();
   
-  // 切換選單的顯示狀態
-  dropdownMenu.classList.toggle('show');
-});
-
-
+  // 监听页面点击事件，以便在点击其他地方时关闭下拉菜单
+  window.addEventListener('mouseup', function(event){
+    let dropdowns = document.querySelectorAll('.dropdown');
+    dropdowns.forEach(function(dropdown){
+      // 如果点击的不是下拉菜单本身，且下拉菜单是显示状态，就隐藏它
+      if(event.target.closest('.dropdown') === null && dropdown.classList.contains('show')){
+        dropdown.classList.remove('show');
+      }
+    });
+  });
+  

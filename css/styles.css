@@ -57,7 +57,7 @@ nav a {
     color: white; /* 設置文字顏色為白色，以提高可讀性 */
 }
 
-.show {
+.dropdown.show {
     display: block;
 }
 
@@ -69,8 +69,17 @@ nav li:hover > .dropdown {
 display: block;
 }
 
+.dropdown > li:first-child {
+    margin-top: 16px; 
+}
+
 .dropdown li {
-min-width: 120px;
+    min-width: 120px;
+    border-bottom: 1px solid white;
+}
+
+.dropdown li:last-child {
+    border-bottom: none;
 }
 
 .search-container {
