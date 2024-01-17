@@ -10,37 +10,34 @@
 <body>
     <header>
         <h1 onclick="window.location='../../../index.html';">My Logo</h1>
-        <nav>
-            <ul>
-                <li><a href="../../../about/about.html">關於</a></li>
-                <li>
-                    <a href="#" class="dropdownToggle">書齋</a>
-                    <ul class="dropdown" id="dropdownMenu">
-                        <li><a href="../../books/books.html">紙本書籍</a></li>
-                        <li><a href="../films.html">影像動畫</a></li>
-                        <li><a href="../../lang/lang.html">語言學習</a></li>
-                    </ul>
-                </li>
-                <li>
-                    <a href="#" class="dropdownToggle">日常</a>
-                    <ul class="dropdown" id="dropdownMenu">
-                        <li><a href="../../../school_life/high/high.html">中學</a></li>
-                        <li><a href="../../../school_life/uni/uni.html">大學</a></li>
-                    </ul>
-                </li>
-                <li><a href="../../../views/views.html">觀點</a></li>
-                <div class="search-container">
-                    <input type="text" id="search-bar" class="search-bar" placeholder="搜尋…" />
-                    <img src="https://static-00.iconduck.com/assets.00/search-icon-2044x2048-psdrpqwp.png" id="search-icon" class="search-icon" />
-                </div>
-            </ul>
-        </nav>
+        <nav id="navbar">
+            <div class="nav-item"><a href="../../../about/about.html">關於</a></div>
+            <div class="nav-item dropdown">
+              <a href="javascript:void(0)">書齋</a>
+              <div class="dropdown-content">
+                <a href="../../books/books.html">紙本書籍</a>
+                <a href="../films.html">影像動畫</a>
+                <a href="../../lang/lang.html">語言學習</a>
+              </div>
+            </div>
+            <div class="nav-item dropdown">
+              <a href="javascript:void(0)">日常</a>
+              <div class="dropdown-content">
+                <a href="../../../school_life/high/high.html">中學</a>
+                <a href="../../../school_life/uni/uni.html">大學</a>
+              </div>
+            </div>
+            <div class="nav-item"><a href="../../../views/views.html">觀點</a></div>
+            <div class="search-container">
+                <input type="text" id="search-bar" class="search-bar" placeholder="搜尋…" />
+                <img src="https://static-00.iconduck.com/assets.00/search-icon-2044x2048-psdrpqwp.png" id="search-icon" class="search-icon" />
+            </div>
+          </nav>
     </header>
 
     <article>
         <h1>
-            從《夢灯籠》<br>
-            談《你的名字》中鏡頭與音樂的運用
+            從《夢灯籠》談《你的名字》中鏡頭與音樂的運用
         </h1>
         <p class="date">2019-09-06</p>
         <br>
@@ -124,6 +121,7 @@
             原文發佈於：<a href="https://www.instagram.com/p/B2EKixbFkox/?utm_source=ig_web_copy_link" target="_blank">上篇</a>
             <a href="https://www.instagram.com/p/B2EdE38Flo3/?utm_source=ig_web_copy_link" target="_blank">下篇</a>
         </p>
+        <br>
     </article>
 
     <footer>

@@ -13,41 +13,42 @@ document.addEventListener('DOMContentLoaded', function() {
     };
 });
 
-// 獲取所有的下拉選單開關和對應的下拉選單
-const dropdownToggles = document.querySelectorAll('.dropdownToggle');
-const dropdownMenus = document.querySelectorAll('.dropdown');
-
-// 為每個下拉選單開關添加點擊事件監聽器
-dropdownToggles.forEach(function(toggle) {
-    toggle.addEventListener('click', function(event) {
-        event.preventDefault(); // 防止默認鏈接行為
-        // 對應的下拉選單
-        const dropdownMenu = toggle.nextElementSibling;
-
-        // 判斷該下拉選單是否已經顯示
-        if (dropdownMenu.classList.contains('show')) {
-            // 如果已顯示，則隱藏
-            dropdownMenu.classList.remove('show');
-        } else {
-            // 隱藏所有其他下拉選單
-            dropdownMenus.forEach(function(menu) {
-                menu.classList.remove('show');
-            });
-            // 顯示當前的下拉選單
-            dropdownMenu.classList.add('show');
-        }
-    });
-});
-
-// 當點擊其他地方時，隱藏所有下拉選單
-document.addEventListener('click', function(event) {
-    const target = event.target;
-    if (!target.matches('.dropdownToggle')) {
-        dropdownMenus.forEach(function(menu) {
-            menu.classList.remove('show');
-        });
-    }
-});
-
-
+// This script toggles the dropdown menus on click
+document.addEventListener('DOMContentLoaded', function() {
+    // Get all dropdown triggers
+    var dropdowns = document.querySelectorAll('.nav-item.dropdown > a');
   
+    // Add click listeners to each dropdown
+    dropdowns.forEach(function(dropdown) {
+      dropdown.addEventListener('click', function(event) {
+        // Prevent the link from navigating
+        event.preventDefault();
+        
+        // Get the associated dropdown content
+        var dropdownContent = this.nextElementSibling;
+        
+        // Close all dropdowns
+        var openDropdowns = document.querySelectorAll('.dropdown-content');
+        openDropdowns.forEach(function(openDropdown) {
+          // If this is not the dropdownContent we want to toggle, close it
+          if (openDropdown !== dropdownContent) {
+            openDropdown.classList.remove('show');
+          }
+        });
+        
+        // Toggle the clicked dropdown content
+        dropdownContent.classList.toggle('show');
+      });
+    });
+  
+    // Close all dropdowns if user clicks outside of any dropdown
+    window.addEventListener('click', function(event) {
+      if (!event.target.matches('.dropdown > a')) {
+        var openDropdowns = document.querySelectorAll('.dropdown-content');
+        openDropdowns.forEach(function(openDropdown) {
+          openDropdown.classList.remove('show');
+        });
+      }
+    });
+  });
+
