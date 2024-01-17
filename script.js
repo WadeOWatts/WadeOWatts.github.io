@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', function() {
             searchIcon.src = 'https://e7.pngegg.com/pngimages/666/635/png-clipart-computer-icons-cancel-angle-logo-thumbnail.png'; // URL of the 'X' icon
         } else {
             searchBar.style.display = 'none';
-            searchIcon.src = 'https://www.clarin.eu/sites/default/files/styles/medium/public/icon-services-fcs.png?itok=seug9Hqn'; // URL of the search icon
+            searchIcon.src = 'https://static-00.iconduck.com/assets.00/search-icon-2044x2048-psdrpqwp.png'; // URL of the search icon
         }
     };
 });
