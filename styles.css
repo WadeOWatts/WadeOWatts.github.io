@@ -108,12 +108,21 @@ footer a:hover {
     text-decoration: underline;
 }
 
-a img {
-    width: 50px;  /* 或者你需要的尺寸 */
-    height: auto;
-    display: block;  /* 使圖示垂直居中 */
-    margin: 0 auto;  /* 如果需要的話，調整外邊距 */
+footer .social-icons {
+    text-align: center; /* 或者根據需要調整對齊方式 */
+    padding: 10px 0; /* 添加一些上下間距 */
 }
+
+footer .social-icons a {
+    margin: 0 10px; /* 水平間距，根據需要調整 */
+    display: inline-block; /* 確保圖示橫向排列 */
+}
+
+footer .social-icons img {
+    width: 30px; /* 或者根據需要調整大小 */
+    height: auto; /* 保持圖片比例 */
+}
+
 
 /* Responsive design adjustments */
 @media (max-width: 768px) {
