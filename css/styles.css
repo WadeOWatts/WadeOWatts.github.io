@@ -89,6 +89,11 @@ min-width: 120px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    grid-template-columns: repeat(3, 1fr); /* 這將創建三個等寬的列 */
+    grid-gap: 20px; /* 格子之間的間隙 */
+    padding: 20px; /* 容器邊緣與格子之間的距離 */
+    max-width: 1200px; /* 最大寬度，可根據需求調整 */
+    margin: 0 auto; /* 左右邊界自動，以使容器水平居中 */
 }
 
 .grid-item {
@@ -117,8 +122,15 @@ min-width: 120px;
     box-shadow: 0px 5px 15px rgba(227, 227, 227, 0.3); /* 懸停時陰影效果 */
 }
 
+article {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 300px;
+  }
+
 article p {
-    font-size: 12px;      /* 設置字體大小為12號 */
+    font-size: 30px;      /* 設置字體大小為12號 */
     line-height: 1.5;     /* 設置1.5倍行高 */
     letter-spacing: 1px;  /* 字距加寬1點 */
     margin-top: 0.75em;   /* 設置段落上方間隔，相當於0.5倍行高 */
