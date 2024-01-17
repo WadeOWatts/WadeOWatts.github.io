@@ -85,6 +85,46 @@ min-width: 120px;
     height: 30px;
 }
 
+.grid-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.grid-item {
+    width: calc(33% - 10px); /* 三列布局，考慮間隔 */
+    margin-bottom: 15px; /* 格子間距 */
+    text-decoration: none; /* 移除超連結下劃線 */
+    color: rgb(255, 255, 255); /* 文字顏色 */
+    box-shadow: none; /* 初始無陰影 */
+    transition: box-shadow 0.3s; /* 平滑過渡效果 */
+}
+
+.grid-item img {
+    width: 100%; /* 圖片填滿格子寬度 */
+    height: auto;
+}
+
+.grid-item .date {
+    font-size: 0.8em; /* 調整日期文字大小 */
+}
+
+.grid-item h3 {
+    font-size: 1em; /* 調整標題文字大小 */
+}
+
+.grid-item:hover {
+    box-shadow: 0px 5px 15px rgba(227, 227, 227, 0.3); /* 懸停時陰影效果 */
+}
+
+article p {
+    font-size: 12px;      /* 設置字體大小為12號 */
+    line-height: 1.5;     /* 設置1.5倍行高 */
+    letter-spacing: 1px;  /* 字距加寬1點 */
+    margin-top: 0.75em;   /* 設置段落上方間隔，相當於0.5倍行高 */
+    margin-bottom: 0.75em;/* 設置段落下方間隔，相當於0.5倍行高 */
+}
+
 footer {
     text-align: center;
     padding: 1em 0;
