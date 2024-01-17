@@ -116,7 +116,7 @@ min-width: 120px;
 
 .grid-item h3 {
     font-size: 1em; /* 調整標題文字大小 */
-    padding: 0.5em 0.5em;
+    padding: 0 0.5em;
 }
 
 .grid-item:hover {
@@ -124,10 +124,10 @@ min-width: 120px;
 }
 
 article {
-    max-width: 1000px;
-    margin-left: auto;
+    max-width: 800px;
+    margin-left: calc(100% / 6);
     margin-right: auto;
-  }
+}
 
 article p {
     font-size: 16px; /* 或 1em */
@@ -142,8 +142,14 @@ article h1 {
     font-size: 2.5em;
     letter-spacing: 1.5px;
     text-align: center;
-    margin-top: 0;
+    margin-top: 1em;
     margin-bottom: 0.5em;
+}
+
+article .data {
+    font-size: 0.8em;
+    text-align: right;
+    margin-bottom: 1em;
 }
 
 
@@ -209,3 +215,11 @@ footer .social-icons img {
         right: 10%;
     }
 }
+@media (max-width: 1200px) { /* 如果屏幕寬度小於1200px */
+    article {
+      width: 100%; /* 寬度設為100% */
+      margin-left: auto; /* 左邊距設為自動，保持居中對齊 */
+      margin-right: auto;
+    }
+  }
+  
