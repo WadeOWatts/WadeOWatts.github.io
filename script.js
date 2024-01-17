@@ -13,3 +13,18 @@ document.addEventListener('DOMContentLoaded', function() {
     };
 });
 
+document.querySelectorAll('nav li').forEach(function(everyitem){
+    everyitem.addEventListener('click', function(e){
+      let el = everyitem.querySelector('.dropdown');
+      if(el) el.style.display = el.style.display === 'block' ? 'none' : 'block';
+    });
+  });
+    window.addEventListener('mouseup', function(event){
+        let box = document.querySelectorAll('.dropdown');
+        box.forEach(function(element){
+        if(event.target != element){
+            element.style.display = 'none';
+        }
+        });
+    });  
+

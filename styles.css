@@ -22,12 +22,39 @@ header {
 
 nav ul {
     list-style-type: none;
+    padding: 0;
+    margin: 0;
     display: flex;
 }
 
 nav ul li {
     padding: 0 1em;
     cursor: pointer;
+}
+
+nav li {
+    position: relative;
+}
+  
+nav a {
+display: block;
+padding: 10px;
+text-decoration: none;
+color: black;
+}
+
+.dropdown {
+display: none;
+position: absolute;
+top: 100%;
+}
+
+nav li:hover > .dropdown {
+display: block;
+}
+
+.dropdown li {
+min-width: 120px;
 }
 
 .search-container {

@@ -12,10 +12,21 @@
         <h1 onclick="window.location='index.html';">My Logo</h1>
         <nav>
             <ul>
-                <li>About Wade</li>
-                <li>Wade's Study</li>
-                <li>Wade's School Life</li>
-                <li>Wade's Opinions</li>
+                <li><a href="#">About Wade</a></li>
+                <li><a href="#">Wade's Study</a>
+                    <ul class="dropdown">
+                        <li><a href="#">Books</a></li>
+                        <li><a href="#">Films</a></li>
+                        <li><a href="#">Language Study</a></li>
+                      </ul>
+                    </li>
+                <li><a href="#">Wade's School Life</a>
+                    <ul class="dropdown">
+                        <li><a href="#">high school</a></li>
+                        <li><a href="#">university</a></li>
+                      </ul>
+                    </li>
+                <li><a href="#">Wade's Opinions</a></li>
                 <div class="search-container">
                     <input type="text" id="search-bar" class="search-bar" placeholder="搜尋…" />
                     <img src="https://static-00.iconduck.com/assets.00/search-icon-2044x2048-psdrpqwp.png" id="search-icon" class="search-icon" />
