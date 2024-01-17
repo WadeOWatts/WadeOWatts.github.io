@@ -57,11 +57,16 @@ nav a {
     color: white; /* 設置文字顏色為白色，以提高可讀性 */
 }
 
-.dropdownToggle:hover + .dropdown {
+.dropdownToggle:hover + .dropdown,
+.dropdownToggle:focus + .dropdown {
     display: block;
 }
 
 .dropdown.active {
+    display: block;
+}
+
+.show {
     display: block;
 }
 
