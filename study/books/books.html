@@ -10,31 +10,30 @@
 <body>
     <header>
         <h1 onclick="window.location='../../index.html';">My Logo</h1>
-        <nav>
-            <ul>
-                <li><a href="../../about/about.html">關於</a></li>
-                <li>
-                    <a href="#" class="dropdownToggle">書齋</a>
-                    <ul class="dropdown" id="dropdownMenu">
-                        <li><a href="books.html">紙本書籍</a></li>
-                        <li><a href="../films/films.html">影像動畫</a></li>
-                        <li><a href="../lang/lang.html">語言學習</a></li>
-                    </ul>
-                </li>
-                <li>
-                    <a href="#" class="dropdownToggle">日常</a>
-                    <ul class="dropdown" id="dropdownMenu">
-                        <li><a href="../../school_life/high/high.html">中學</a></li>
-                        <li><a href="../../school_life/uni/uni.html">大學</a></li>
-                    </ul>
-                </li>
-                <li><a href="../../views/views.html">觀點</a></li>
-                <div class="search-container">
-                    <input type="text" id="search-bar" class="search-bar" placeholder="搜尋…" />
-                    <img src="https://static-00.iconduck.com/assets.00/search-icon-2044x2048-psdrpqwp.png" id="search-icon" class="search-icon" />
-                </div>
-            </ul>
-        </nav>
+        <nav id="navbar">
+            <div class="nav-item"><a href="../../about/about.html">關於</a></div>
+            <div class="nav-item dropdown">
+              <a href="javascript:void(0)">書齋</a>
+              <div class="dropdown-content">
+                <a href="books.html">紙本書籍</a>
+                <a href="../films/films.html">影像動畫</a>
+                <a href="../lang/lang.html">語言學習</a>
+              </div>
+            </div>
+            <div class="nav-item dropdown">
+              <a href="javascript:void(0)">日常</a>
+              <div class="dropdown-content">
+                <a href="../../school_life/high/high.html">中學</a>
+                <a href="../../school_life/uni/uni.html">大學</a>
+              </div>
+            </div>
+            <div class="nav-item"><a href="../../views/views.html">觀點</a></div>
+            <div class="search-container">
+                <input type="text" id="search-bar" class="search-bar" placeholder="搜尋…" />
+                <img src="../../figures/search.png" id="search-icon" class="search-icon" onclick="toggleSearch()" />
+                <img src="../../figures/cancel.png" id="close-icon" class="close-icon hidden" onclick="toggleSearch()" />
+            </div>
+          </nav>
     </header>
 
     <footer>

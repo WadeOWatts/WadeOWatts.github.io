@@ -112,7 +112,10 @@ nav a:active {
       text-align: left;
     }
 }
-  
+
+.hidden {
+    display: none;
+}
 
 .search-container {
     position: relative;
@@ -120,13 +123,14 @@ nav a:active {
     align-items: center;
 }
 
-.search-bar {
+#search-bar {
     display: none;
     padding: 5px;
     font-size: 16px;
+    /* Additional styles for search bar */
 }
 
-.search-icon {
+.search-icon, .close-icon {
     cursor: pointer;
     width: 30px;
     height: 30px;
@@ -171,8 +175,8 @@ nav a:active {
 }
 
 article {
-    max-width: 600px;
-    margin-left: calc(100% / 5);
+    max-width: 800px;
+    margin-left: auto;
     margin-right: auto;
 }
 
@@ -181,8 +185,8 @@ article p {
     letter-spacing: 0.93px; /* 或 0.058em */
     text-align: justify; /* 左右對齊 */
     line-height: 30.67px; /* 或 1.92em */
-    margin-top: 0; /* 與前段無距離 */
-    margin-bottom: 0; /* 與後段無距離 */
+    margin-top: 1px; /* 與前段無距離 */
+    margin-bottom: 1px; /* 與後段無距離 */
 }
 
 article h1 {
@@ -198,6 +202,7 @@ article .date {
     text-align: right;
     margin-bottom: 1em;
 }
+  
 
 
 footer {
