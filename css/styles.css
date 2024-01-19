@@ -223,6 +223,30 @@ article h1 {
     text-align: center;
     margin-top: 1em;
     margin-bottom: 0.5em;
+    font-weight:bold;
+}
+
+article h2 {
+    font-size: 1.5em;
+    letter-spacing: 1.5px;
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+    font-weight:bold;
+}
+
+article h3 {
+    font-size: 1.2em;
+    letter-spacing: 1.2px;
+    text-align: left;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+    font-weight:bold;
+}
+
+article a {
+    color: #FFEEC3;
+    text-decoration: none;
 }
 
 article .date {
