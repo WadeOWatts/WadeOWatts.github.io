@@ -143,6 +143,7 @@ nav a:active {
     justify-content: center; /* 當容器寬度大於所有格子的總寬度時，使它們居中 */
     padding: 20px; /* 容器的內邊距 */
     margin: 0 auto; /* 上下邊界為0，左右自動，以使容器水平居中 */
+    
 }
   
 .grid-item {
@@ -151,18 +152,23 @@ nav a:active {
     color: rgb(255, 255, 255); /* 文字顏色 */
     box-shadow: none; /* 初始無陰影 */
     transition: box-shadow 0.3s; /* 平滑過渡效果 */
+    height: 280px; /* 設定格子高度為320px */
+    position: relative; /* 用於內部元素定位 */
+    background-color: #242121; /* 背景顏色 */
 }
   
   
 
 .grid-item img {
     width: 100%; /* 圖片填滿格子寬度 */
-    height: auto;
+    height: 180px; /* 16:9 的高度比例 */
+    object-fit: cover; /* 保持圖片的比例 */
+    object-position: center; /* 圖片居中顯示 */
 }
 
 .grid-item .date {
     font-size: 0.8em; /* 調整日期文字大小 */
-    padding: 0.5em 0.5em; /* 調整日期文字與圖片間距 */
+    padding: 0 0.5em; /* 調整日期文字與圖片間距 */
 }
 
 .grid-item h3 {
@@ -189,10 +195,32 @@ article p {
     margin-bottom: 1px; /* 與後段無距離 */
 }
 
+article blockquote {
+    font-family: "Times New Roman", "標楷體", sans-serif;
+    font-size: 20px; /* 或 1em */
+    letter-spacing: 0.93px; /* 或 0.058em */
+    text-align: justify; /* 左右對齊 */
+    line-height: 30.67px; /* 或 1.92em */
+}
+
+article ul {
+    font-size: 16px; /* 或 1em */
+    letter-spacing: 0.93px; /* 或 0.058em */
+    text-align: justify; /* 左右對齊 */
+    line-height: 30.67px; /* 或 1.92em */
+}
+
+article ol {
+    font-size: 16px; /* 或 1em */
+    letter-spacing: 0.93px; /* 或 0.058em */
+    text-align: justify; /* 左右對齊 */
+    line-height: 30.67px; /* 或 1.92em */
+}
+
 article h1 {
     font-size: 2em;
     letter-spacing: 3px;
-    text-align: justify;
+    text-align: center;
     margin-top: 1em;
     margin-bottom: 0.5em;
 }
@@ -200,6 +228,24 @@ article h1 {
 article .date {
     font-size: 0.8em;
     text-align: right;
+    margin-bottom: 1em;
+    
+}
+
+article figcaption {
+    font-size: 0.8em;
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    letter-spacing: 0.93px;
+}
+
+article img {
+    width: 600px;
+    height: auto;
+    object-fit: cover;
+    object-position: center;
+    margin-top: 1em;
     margin-bottom: 1em;
 }
   
