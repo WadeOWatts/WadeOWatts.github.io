@@ -277,6 +277,12 @@ article h1 {
     font-weight:bold;
 }
 
+@media only screen and (max-width: 768px) {
+    articlee h1 {
+        text-align: left;
+    }
+}
+
 article h2 {
     font-size: 1.5em;
     letter-spacing: 1.5px;
