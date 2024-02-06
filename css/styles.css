@@ -278,7 +278,7 @@ article h1 {
 }
 
 @media only screen and (max-width: 768px) {
-    articlee h1 {
+    article h1 {
         text-align: left;
     }
 }
