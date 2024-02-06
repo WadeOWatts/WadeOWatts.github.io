@@ -102,6 +102,25 @@ nav a:hover {
 nav a:active {
     color: black; /* or any color you want */
 }
+
+/* 菜單圖標樣式 */
+.menu-icon {
+    display: none; /* 預設隱藏，只在小屏幕上顯示 */
+    cursor: pointer;
+    font-size: 60px; /* 設置大小 */
+    color: black; /* 設置顏色為黑色 */
+}
+
+/* 隱藏導航欄 */
+@media (max-width: 768px) {
+    #navbar {
+        display: none;
+    }
+    .menu-icon {
+        display: block;
+        cursor: pointer;
+    }
+}
   
   
   /* Responsive layout - makes the navigation links stack on top of each other instead of next to each other on small screens */
@@ -136,6 +155,11 @@ nav a:active {
     height: 30px;
 }
 
+
+
+
+
+
 .grid-container {
     display: grid;
     grid-template-columns: repeat(3, 320px); /* 創建三個固定為320px寬的列 */
@@ -146,15 +170,15 @@ nav a:active {
     
 }
 
-@media only screen and (max-width: 600px) {
-    .grid-container {
-      grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
-    }
-}
-
 @media only screen and (max-width: 768px) {
     .grid-container {
         grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .grid-container {
+      grid-template-columns: repeat(1, minmax(320px, 1fr));
     }
 }
   

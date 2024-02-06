@@ -12,31 +12,34 @@
       <a href="index.html">
         <img src="figures/colored_logo_1.png" alt="My Logo" class="logo">
       </a>
-    
-      <nav id="navbar">
-        <div class="nav-item"><a href="about/about.html">關於</a></div>
-        <div class="nav-item dropdown">
-          <a href="javascript:void(0)">書齋</a>
-          <div class="dropdown-content">
-            <a href="study/books/books.html">紙本書籍</a>
-            <a href="study/films/films.html">影像動畫</a>
-            <a href="study/lang/lang.html">語言學習</a>
+
+        <div class="menu-icon" onclick="toggleNavbar()">☰</div>
+        <nav id="navbar">
+          <div class="nav-item"><a href="about/about.html">關於</a></div>
+          <div class="nav-item dropdown">
+            <a href="javascript:void(0)">書齋</a>
+            <div class="dropdown-content">
+              <a href="study/books/books.html">紙本書籍</a>
+              <a href="study/films/films.html">影像動畫</a>
+              <a href="study/lang/lang.html">語言學習</a>
+            </div>
           </div>
-        </div>
-        <div class="nav-item dropdown">
-          <a href="javascript:void(0)">日常</a>
-          <div class="dropdown-content">
-            <a href="school_life/high/high.html">中學</a>
-            <a href="school_life/uni/uni.html">大學</a>
+          <div class="nav-item dropdown">
+            <a href="javascript:void(0)">日常</a>
+            <div class="dropdown-content">
+              <a href="school_life/high/high.html">中學</a>
+              <a href="school_life/uni/uni.html">大學</a>
+            </div>
           </div>
-        </div>
-        <div class="nav-item"><a href="views/views.html">觀點</a></div>
-        <div class="search-container">
-            <input type="text" id="search-bar" class="search-bar" placeholder="搜尋…" />
-            <img src="figures/search.png" id="search-icon" class="search-icon" onclick="toggleSearch()" />
-            <img src="figures/cancel.png" id="close-icon" class="close-icon hidden" onclick="toggleSearch()" />
-        </div>
-      </nav>
+          <div class="nav-item"><a href="views/views.html">觀點</a></div>
+          <div class="search-container">
+              <input type="text" id="search-bar" class="search-bar" placeholder="搜尋…" />
+              <img src="figures/search.png" id="search-icon" class="search-icon" onclick="toggleSearch()" />
+              <img src="figures/cancel.png" id="close-icon" class="close-icon hidden" onclick="toggleSearch()" />
+          </div>
+        </nav>
+
+      
     </header>
 
     <div class="grid-container">
