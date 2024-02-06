@@ -145,6 +145,18 @@ nav a:active {
     margin: 0 auto; /* 上下邊界為0，左右自動，以使容器水平居中 */
     
 }
+
+@media only screen and (max-width: 600px) {
+    .grid-container {
+      grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
   
 .grid-item {
     margin-bottom: 15px; /* 格子間距 */
@@ -184,6 +196,21 @@ article {
     max-width: 800px;
     margin-left: auto;
     margin-right: auto;
+}
+
+/* 對於小於或等於600px寬的屏幕，減少內邊距和最大寬度 */
+@media only screen and (max-width: 600px) {
+    article {
+      padding: 10px;
+      max-width: 100%;
+    }
+}
+  
+  /* 對於小於或等於768px寬的屏幕，適當調整最大寬度 */
+@media only screen and (max-width: 768px) {
+    article {
+        max-width: 90%; /* 或者某個固定值，比如600px */
+    }
 }
 
 article p {
