@@ -107,7 +107,7 @@ nav a:active {
 .menu-icon {
     display: none; /* 預設隱藏，只在小屏幕上顯示 */
     cursor: pointer;
-    font-size: 60px; /* 設置大小 */
+    font-size: 30px; /* 設置大小 */
     color: black; /* 設置顏色為黑色 */
 }
 
