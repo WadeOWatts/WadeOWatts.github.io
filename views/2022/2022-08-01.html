@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>車道分割</title>
+<link rel="stylesheet" type="text/css" href="../../css/styles.css">
+<script src="../../javascript/script.js"></script>
+</head>
+<body>
+    <header>
+        <a href="../../index.html">
+            <img src="../../figures/colored_logo_1.png" alt="My Logo" class="logo">
+        </a>
+        <div class="menu-icon" onclick="toggleNavbar()">☰</div>
+        <nav id="navbar">
+            <div class="nav-item"><a href="../about/about.html">關於</a></div>
+            <div class="nav-item dropdown">
+              <a href="javascript:void(0)">書齋</a>
+              <div class="dropdown-content">
+                <a href="../../study/books/books.html">紙本書籍</a>
+                <a href="../../study/films/films.html">影像動畫</a>
+                <a href="../../study/lang/lang.html">語言學習</a>
+              </div>
+            </div>
+            <div class="nav-item dropdown">
+              <a href="javascript:void(0)">日常</a>
+              <div class="dropdown-content">
+                <a href="../../school_life/high/high.html">中學</a>
+                <a href="../../school_life/uni/uni.html">大學</a>
+              </div>
+            </div>
+            <div class="nav-item"><a href="../../views/views.html">觀點</a></div>
+            <div class="search-container">
+                <input type="text" id="search-bar" class="search-bar" placeholder="搜尋…" />
+                <img src="../../figures/search.png" id="search-icon" class="search-icon" onclick="toggleSearch()" />
+                <img src="../../figures/cancel.png" id="close-icon" class="close-icon hidden" onclick="toggleSearch()" />
+            </div>
+          </nav>
+    </header>
+
+    <article>
+        <h1>
+            車道分割
+        </h1>
+        <p class="date">2022-08-01</p><br>
+        <p>
+            車道分割（lane filtering）指的是在靜止或緩速車流時，機車從汽車間的空間穿越的行為。<br><br>
+            這其實是一項滿有技巧性的駕駛行為，可惜在中華民國並不是駕照考試的項目之一，也沒有相關法律規範，導致台灣很多機車騎士並不清楚如何正確車道分割。<br><br>
+            但這種機會多不多？每天一定會遇到好幾次。是不是該學起來了！<br><br>
+            以下為新南威爾斯的交通局的宣導影片：<br><br>
+        </p><br><br>
+        <style>
+            .video-container {
+                text-align: center;
+            }
+            .video-container iframe {
+                display: inline-block;
+            }
+        </style>
+        <div class="video-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/kWh0t1fX_EY" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <br><br>
+    </article>
+
+        
+    <footer>
+        <div class="social-icons">
+            <a href="https://www.facebook.com/profile.php?id=100012598034817" target="_blank"><img src="../../figures/facebook.png" alt="Facebook"></a>
+            <a href="https://www.instagram.com/chunwei.chang2/" target="_blank"><img src="../../figures/instagram.png" alt="Instagram"></a>            
+            <a href="https://twitter.com/WadeOwenWatts17" target="_blank"><img src="../../figures/X.png" alt="X"></a> 
+            <a href="https://www.youtube.com/channel/UCyPuB8qI1BUJWUGxG1e8a9A" target="_blank"><img src="../../figures/youtube.png" alt="YouTube"></a>
+            <a href="https://github.com/WadeOWatts" target="_blank"><img src="../../figures/github.png" alt="GitHub"></a>
+        </div>
+        <p>&copy; 2024 Chang, Chun-Wei. All rights reserved.</p>
+        <ul>
+            <li><a href="../../../privacy-policy">Privacy Policy</a></li>
+            <li><a href="../../../../terms-of-service">Terms of Service</a></li>
+        </ul>
+    </footer>
+</body>
+</html>
