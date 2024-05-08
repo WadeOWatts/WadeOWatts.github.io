@@ -74,6 +74,16 @@
     font-weight:bold;
   }
 
+  figcaption {
+    font-size: 0.8em;
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    letter-spacing: 0.93px;
+  }
+  
+
+
   .grid__wrapper {
     display: grid;
     grid-template-columns: repeat(3, 1fr); /* 確保有三個等寬的列 */
@@ -89,6 +99,18 @@
     aspect-ratio: 16 / 9; /* 直接设置宽高比 */
     object-fit: cover; /* 保证图片内容按比例填充并覆盖整个元素框，不变形 */
     margin-bottom: 10px;
+  }
+
+  p img {
+    width: auto;
+    height: 600px;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1em;
+    margin-bottom: 1em;
   }
   
 }

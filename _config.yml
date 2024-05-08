@@ -66,6 +66,7 @@ masthead_title           : # overrides the website title displayed in the masthe
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 enable_copy_code_button  : true
+related: true
 copyright                : # "copyright" name, defaults to site.title
 copyright_url            : # "copyright" URL, defaults to site.url
 show_date: true
@@ -365,5 +366,9 @@ defaults:
       comments: # true
       share: true
       show_related: true
+      related: true
       show_date: true
       date_format: "%Y-%m-%d"
+      related_by: categories or tags
+      related_categories:
+      related_tags:
