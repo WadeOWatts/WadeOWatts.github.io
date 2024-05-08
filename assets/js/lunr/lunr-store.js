@@ -38,7 +38,7 @@ var store = [
               replace:"</h4>", " " |
               replace:"</h5>", " " |
               replace:"</h6>", " "|
-            strip_html | strip_newlines | truncatewords: 50 | jsonify }},
+            strip_html | strip_newlines | truncate: 50 | jsonify }},
           {%- endif -%}
         "categories": {{ doc.categories | jsonify }},
         "tags": {{ doc.tags | jsonify }},
@@ -76,7 +76,7 @@ var store = [
             replace:"</h4>", " " |
             replace:"</h5>", " " |
             replace:"</h6>", " "|
-          strip_html | strip_newlines | truncatewords: 50 | jsonify }},
+          strip_html | strip_newlines | truncate: 50 | jsonify }},
         {%- endif -%}
       "url": {{ doc.url | absolute_url | jsonify }}
   }{%- unless forloop.last and l -%},{%- endunless -%}

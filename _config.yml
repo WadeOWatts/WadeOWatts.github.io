@@ -328,6 +328,7 @@ tag_archive:
   type: liquid
   path: /tags/
 # https://github.com/jekyll/jekyll-archives
+
 jekyll-archives:
   enabled:
     - categories
@@ -358,11 +359,11 @@ defaults:
       path: ""
       type: posts
     values:
-      layout: single
+      layout: archive
       author_profile: true
-      read_time: true
+      read_time: false
       comments: # true
       share: true
-      related: true
+      show_related: true
       show_date: true
       date_format: "%Y-%m-%d"

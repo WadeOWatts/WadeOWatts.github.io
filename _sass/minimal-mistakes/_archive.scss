@@ -16,7 +16,84 @@
     width: calc(100% - #{$right-sidebar-width});
     padding-right: $right-sidebar-width;
   }
+
+  p {
+    font-size: 16px; /* 或 1em */
+    letter-spacing: 0.93px; /* 或 0.058em */
+    text-align: justify; /* 左右對齊 */
+    line-height: 30.67px; /* 或 1.92em */
+    margin-top: 1px; /* 與前段無距離 */
+    margin-bottom: 1px; /* 與後段無距離 */
+  }
+
+  blockquote {
+    font-family: "Times New Roman", "標楷體", sans-serif;
+    font-size: 20px; /* 或 1em */
+    letter-spacing: 0.93px; /* 或 0.058em */
+    text-align: justify; /* 左右對齊 */
+    line-height: 30.67px; /* 或 1.92em */
+  }
+
+  ul {
+    font-size: 16px; /* 或 1em */
+    letter-spacing: 0.93px; /* 或 0.058em */
+    text-align: justify; /* 左右對齊 */
+    line-height: 30.67px; /* 或 1.92em */
+  }
+
+  ol {
+    font-size: 16px; /* 或 1em */
+    letter-spacing: 0.93px; /* 或 0.058em */
+    text-align: justify; /* 左右對齊 */
+    line-height: 30.67px; /* 或 1.92em */
+  }
+
+  h1 {
+    font-size: 2em;
+    letter-spacing: 3px;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+    font-weight:bold;
+    
+  }
+
+  h2 {
+    font-size: 1.5em;
+    letter-spacing: 1.5px;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+    font-weight:bold;
+  }
+
+  h3 {
+    font-size: 1.2em;
+    letter-spacing: 1.2px;
+    text-align: left;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+    font-weight:bold;
+  }
+
+  .grid__wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 確保有三個等寬的列 */
+    gap: 10px; /* 格子間距 */
+  }
+  
+  .grid-item {
+    padding: 10px;
+  }
+  
+  .grid-item img {
+    width: 100%;
+    aspect-ratio: 16 / 9; /* 直接设置宽高比 */
+    object-fit: cover; /* 保证图片内容按比例填充并覆盖整个元素框，不变形 */
+    margin-bottom: 10px;
+  }
+  
 }
+
+
 
 .archive__item {
   position: relative;
@@ -92,6 +169,9 @@
 
   img {
     width: 100%;
+    aspect-ratio: 16 / 9; /* 直接设置宽高比 */
+    object-fit: cover; /* 保证图片内容按比例填充并覆盖整个元素框，不变形 */
+    margin-bottom: 10px;
   }
 }
 
@@ -445,11 +525,11 @@
   .wide {
   .archive {
     @include breakpoint($large) {
-      padding-right: 0;
+      padding-right: 100;
     }
 
     @include breakpoint($x-large) {
-      padding-right: 0;
+      padding-right: 200;
     }
   }
 }
@@ -461,3 +541,5 @@
 		display: inline-block;
 	}
 }
+
+
