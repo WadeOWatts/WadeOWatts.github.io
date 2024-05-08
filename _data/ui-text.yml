@@ -432,7 +432,7 @@ zh-TW: &DEFAULT_ZH_HANT
   skip_links                 :
   skip_primary_nav           : "轉至主導航欄"
   skip_content               : "轉至内容"
-  skip_footer                : "轉至頁脚"
+  skip_footer                : "轉至頁尾"
   page                       : "頁面"
   pagination_previous        : "前一頁"
   pagination_next            : "後一頁"
@@ -452,7 +452,7 @@ zh-TW: &DEFAULT_ZH_HANT
   comments_label             : "留言"
   comments_title             : "留言內容"
   more_label                 : "了解更多"
-  related_label              : "猜您有與趣"
+  related_label              : "猜您喜歡"
   follow_label               : "追蹤:"
   feed_label                 : "RSS Feed"
   powered_by                 : "Powered by"

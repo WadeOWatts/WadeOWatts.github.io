@@ -223,3 +223,32 @@ $(document).ready(function () {
       });
   }
 });
+
+document.addEventListener('DOMContentLoaded', function() {
+  var dropdownToggles = document.querySelectorAll('.dropdown-toggle');
+
+  dropdownToggles.forEach(function(toggle) {
+      toggle.addEventListener('click', function(event) {
+          event.preventDefault(); // Prevent navigating to '#'
+          var dropdownContent = this.nextElementSibling;
+          // Toggle the 'hidden' class
+          if (dropdownContent.classList.contains('hidden')) {
+              dropdownContent.classList.remove('hidden');
+          } else {
+              dropdownContent.classList.add('hidden');
+          }
+      });
+  });
+
+  // Optional: Close dropdowns when clicking elsewhere on the page
+  document.addEventListener('click', function(event) {
+      if (!event.target.matches('.dropdown-toggle')) {
+          var dropdowns = document.querySelectorAll('.dropdown-content');
+          dropdowns.forEach(function(dropdown) {
+              if (!dropdown.classList.contains('hidden')) {
+                  dropdown.classList.add('hidden');
+              }
+          });
+      }
+  });
+});
