@@ -14,5 +14,5 @@ Hina~~~~~<br><br>
 #我在幹嘛
 #家政課<br>
 
-![陽菜炒飯](/assets/images/2019-10-17.jpg =320x)
+<img src="/assets/images/2019-10-17.jpg" alt="陽菜炒飯" width="320">
 <figcaption>陽菜炒飯</figcaption><br>
