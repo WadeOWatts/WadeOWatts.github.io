@@ -21,6 +21,13 @@ Hina~~~~~<br><br>
     align-items: center;
     flex-direction: column;
 }
+figure {
+    margin: 0; /* Remove default margins around the figure */
+}
+figcaption {
+    margin-top: 5px; /* Adjust the margin as needed */
+    text-align: center;
+}
 </style>
 
 <div class="center">
@@ -29,21 +36,3 @@ Hina~~~~~<br><br>
     </figure>
     <figcaption>陽菜炒飯</figcaption>
 </div>
-
-<!-- <div style="text-align: center;">
-    <figure>
-        <img src="/assets/images/2019-10-17.jpg" style="width:320px;" alt="陽菜炒飯">
-        <figcaption>陽菜炒飯</figcaption>
-    </figure>
-</div> -->
-
-<!-- <style>
-.center {
-    display: flex;
-    justify-content: center;
-}
-</style>
-<div class="center">
-![陽菜炒飯](/assets/images/2019-10-17.jpg){: style="width: 320px;" }
-</div>
-<figcaption>陽菜炒飯</figcaption><br> -->
