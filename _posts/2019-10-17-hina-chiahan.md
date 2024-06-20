@@ -26,8 +26,8 @@ Hina~~~~~<br><br>
 <div class="center">
     <figure>
         <img src="/assets/images/2019-10-17.jpg" style="width:320px;" alt="陽菜炒飯">
-        <figcaption>陽菜炒飯</figcaption>
     </figure>
+    <figcaption>陽菜炒飯</figcaption>
 </div>
 
 <!-- <div style="text-align: center;">
