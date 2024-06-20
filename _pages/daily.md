@@ -1,5 +1,5 @@
 ---
-title: "日常"
+title: "生活"
 layout: category
 permalink: /daily/
 taxonomy: daily
