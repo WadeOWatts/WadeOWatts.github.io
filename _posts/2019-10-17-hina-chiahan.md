@@ -14,7 +14,14 @@ Hina~~~~~<br><br>
 #我在幹嘛
 #家政課<br>
 
-<style>
+<div style="text-align: center;">
+    <figure>
+        <img src="/assets/images/2019-10-17.jpg" style="width:320px;" alt="陽菜炒飯">
+        <figcaption>陽菜炒飯</figcaption>
+    </figure>
+</div>
+
+<!-- <style>
 .center {
     display: flex;
     justify-content: center;
@@ -23,4 +30,4 @@ Hina~~~~~<br><br>
 <div class="center">
 ![陽菜炒飯](/assets/images/2019-10-17.jpg){: style="width: 320px;" }
 </div>
-<figcaption>陽菜炒飯</figcaption><br>
+<figcaption>陽菜炒飯</figcaption><br> -->
