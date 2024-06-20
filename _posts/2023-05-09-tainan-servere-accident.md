@@ -25,7 +25,7 @@ header:
     <img src="/assets/images/2023-05-09-intersection-02.jpg">
 </figure><br>
 <figcaption>台南市北區忠義路、成功路口</figcaption>
-<br><br>
+<br>
 
 這個路口蠻酷的，簡單寫個評析好了。
 先從行人角度開始：
