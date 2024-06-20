@@ -14,5 +14,13 @@ Hina~~~~~<br><br>
 #我在幹嘛
 #家政課<br>
 
+<style>
+.center {
+    display: flex;
+    justify-content: center;
+}
+</style>
+<div class="center">
 ![陽菜炒飯](/assets/images/2019-10-17.jpg){: style="width: 320px;" }
+</div>
 <figcaption>陽菜炒飯</figcaption><br>
