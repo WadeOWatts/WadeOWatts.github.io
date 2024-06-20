@@ -19,21 +19,21 @@ header:
 > どこかで途切れた物語<br>
 
 > Now we go, once again, past where we have split off<br>
-> 僕らもう一度その先へ<br><br>
+> 僕らもう一度その先へ<br>
 
 > Even if, many times, we have been separated, you can see<br>
-> たとえ何度離れてしまっても<br><br>
+> たとえ何度離れてしまっても<br>
 
 > We're connected, still<br>
-> ほら繋がっている<br><br>
+> ほら繋がっている<br>
 
 以上是RGB的開頭。<br>
 
 > Seize a move, you're on me, falling, and we were dissolving <br>
-> 沈むように溶けてゆくように<br><br>
+> 沈むように溶けてゆくように<br>
 
 > You and me, skies above and wide, it brings on the true night on me<br>
-> 二人だけの空が広がる夜に<br><br>
+> 二人だけの空が広がる夜に<br>
 
 以上是Into the Night的開頭。<br><br>
 我在猜，會不會有一種可能，是這種比較新奇的歌詞排列方法，使得對英美人士來說，比較新奇，比較有記憶點？<br><br>
