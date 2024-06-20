@@ -3,7 +3,7 @@ layout: posts
 title:  "吳曉樂《你的孩子不是你的孩子》"
 date:   2018-08-13
 categories: study
-tags: [書籍, 小說]
+tags: [小說]
 header: 
   teaser: "/assets/images/2018-08-13.jpg"
 ---

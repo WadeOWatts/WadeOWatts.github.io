@@ -3,7 +3,7 @@ layout: posts
 title:  "Dan Millman《深夜加油站遇見蘇格拉底》、《隱藏的學校》"
 date:   2018-08-24
 categories: study
-tags: [書籍, 小說]
+tags: [小說]
 header: 
   teaser: "/assets/images/2018-08-24.jpg"
 ---

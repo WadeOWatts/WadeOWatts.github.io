@@ -2,9 +2,13 @@
 main:
   - title: "書房"
     url: "/study/"
+  - title: "影廳"
+    url: "/cinema/"
   - title: "觀點"
     url: /views/
-  - title: "日常"
+  - title: "生活"
     url: "/daily/"
+  - title: "會客室"
+    url: "/parlor/"
   - title: "關於"
     url: https://mmistakes.github.io/minimal-mistakes/about/

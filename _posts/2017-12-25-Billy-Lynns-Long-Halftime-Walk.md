@@ -3,7 +3,7 @@ layout: posts
 title:  "Ben Fountain《半場無戰事》"
 date:   2017-12-25
 categories: study
-tags: [書籍, 小說]
+tags: [小說]
 header: 
   teaser: "/assets/images/2017-12-25.jpeg"
 ---

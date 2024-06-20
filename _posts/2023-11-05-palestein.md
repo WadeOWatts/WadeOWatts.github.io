@@ -3,7 +3,7 @@ layout: posts
 title:  "Rashid Khalidi《巴勒斯坦之殤》"
 date:   2023-11-05
 categories: study
-tags: [書籍, 歷史]
+tags: [歷史]
 header: 
   teaser: "/assets/images/2023-11-05-palestein.jpg"
 ---

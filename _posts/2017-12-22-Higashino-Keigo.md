@@ -3,7 +3,7 @@ layout: posts
 title:  "東野圭吾《以前，我死去的家》"
 date:   2017-12-22
 categories: study
-tags: [書籍, 小說]
+tags: [小說]
 header: 
   teaser: "/assets/images/2017-12-22-book.jpg"
 ---

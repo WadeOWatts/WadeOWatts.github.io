@@ -3,7 +3,7 @@ layout: posts
 title:  "江振誠《初心》"
 date:   2017-04-28
 categories: study
-tags: [書籍, 人物]
+tags: [人物]
 header: 
   teaser: "/assets/images/2017-04-28.jpeg"
 ---

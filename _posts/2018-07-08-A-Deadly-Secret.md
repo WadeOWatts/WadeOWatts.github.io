@@ -3,7 +3,7 @@ layout: posts
 title:  "金庸《連城訣》"
 date:   2018-07-08
 categories: study
-tags: [書籍, 小說]
+tags: [小說]
 header: 
   teaser: "/assets/images/2018-07-08.jpg"
 ---

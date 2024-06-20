@@ -3,7 +3,7 @@ layout: posts
 title:  "Jean-Jacques Rousseau《社會契約論》"
 date:   2018-09-17
 categories: study
-tags: [書籍, 哲學]
+tags: [哲學]
 header: 
   teaser: "/assets/images/2018-09-17.jpg"
 ---

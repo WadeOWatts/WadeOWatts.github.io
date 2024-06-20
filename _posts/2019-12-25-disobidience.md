@@ -3,7 +3,7 @@ layout: posts
 title:  "Henry David Thoreau《湖濱散記》、〈公民不服從〉"
 date:   2019-12-25
 categories: study
-tags: [書籍, 社會政治]
+tags: [社會政治]
 header: 
   teaser: "/assets/images/2019-12-25.jpg"
 ---

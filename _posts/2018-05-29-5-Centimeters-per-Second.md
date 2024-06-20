@@ -3,7 +3,7 @@ layout: posts
 title:  "加納新太《秒速5公分 one more side》"
 date:   2018-05-29
 categories: study
-tags: [書籍, 小說]
+tags: [小說]
 header: 
   teaser: "/assets/images/2018-05-29.jpg"
 ---

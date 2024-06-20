@@ -3,7 +3,7 @@ layout: posts
 title:  "千川《時光當舖》"
 date:   2017-06-04
 categories: study
-tags: [書籍, 小說]
+tags: [小說]
 header: 
   teaser: "/assets/images/2017-06-04.jpg"
 ---

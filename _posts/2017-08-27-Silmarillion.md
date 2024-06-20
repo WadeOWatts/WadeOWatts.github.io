@@ -3,7 +3,7 @@ layout: posts
 title:  "J.R.R. Tolkien《精靈寶鑽：中土大陸的神話與傳奇》"
 date:   2017-08-27
 categories: study
-tags: [書籍, 歷史]
+tags: [歷史]
 header: 
   teaser: "/assets/images/2017-08-27-tomb.jpg"
 ---

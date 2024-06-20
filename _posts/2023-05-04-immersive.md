@@ -2,7 +2,7 @@
 layout: posts
 title:  "日語沉浸式學習"
 date:   2023-05-04
-categories: study
+categories: parlor
 tags: [語言, 日語]
 header: 
   teaser: "/assets/images/2023-05-04.jpg"

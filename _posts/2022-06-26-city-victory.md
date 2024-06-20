@@ -3,7 +3,7 @@ layout: posts
 title:  "Edward Glaeser《城市的勝利》"
 date:   2022-06-26
 categories: study
-tags: [書籍, 社會科學]
+tags: [社會科學]
 header: 
   teaser: "/assets/images/2022-06-26-city.jpg"
 ---

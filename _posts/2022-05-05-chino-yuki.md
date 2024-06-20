@@ -2,7 +2,7 @@
 layout: posts
 title:  "今日は何色？"
 date:   2022-05-05
-categories: study
+categories: parlor
 tags: [語言, 日語]
 header: 
   teaser: "/assets/images/2022-05-05.jpg"

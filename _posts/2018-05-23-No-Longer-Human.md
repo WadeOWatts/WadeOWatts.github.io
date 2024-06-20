@@ -3,7 +3,7 @@ layout: posts
 title:  "太宰治《人間失格》"
 date:   2018-05-23
 categories: study
-tags: [書籍, 小說]
+tags: [小說]
 header: 
   teaser: "/assets/images/2018-05-23-cover.jpg"
 ---
