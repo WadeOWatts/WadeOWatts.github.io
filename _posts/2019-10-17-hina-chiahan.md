@@ -14,12 +14,28 @@ Hina~~~~~<br><br>
 #我在幹嘛
 #家政課<br>
 
-<div style="text-align: center;">
+<style>
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+</style>
+
+<div class="center">
     <figure>
         <img src="/assets/images/2019-10-17.jpg" style="width:320px;" alt="陽菜炒飯">
         <figcaption>陽菜炒飯</figcaption>
     </figure>
 </div>
+
+<!-- <div style="text-align: center;">
+    <figure>
+        <img src="/assets/images/2019-10-17.jpg" style="width:320px;" alt="陽菜炒飯">
+        <figcaption>陽菜炒飯</figcaption>
+    </figure>
+</div> -->
 
 <!-- <style>
 .center {
