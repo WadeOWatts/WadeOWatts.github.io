@@ -31,8 +31,8 @@ header:
 </style>
 
 <figure class="image-container">
-    <img src="../../figures/2022-10-16-1.jpg">
-    <img src="../../figures/2022-10-16-2.jpg">
+    <img src="/assets/images/2022-10-16-1.jpg">
+    <img src="/assets/images/2022-10-16-2.jpg">
 </figure><br>
 
 中華民國在設計交通標誌的時候時常有個問題，會在「事發地點」設置標語。我們先不論到底看不看得到，因為很多標語會插在樹叢裡面，重點是人需要反應時間。你要給人反應時間，就必須把主管機關要告知駕駛人的注意事項，寫在事發處的前面，使駕駛人有反應時間。<br><br>
