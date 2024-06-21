@@ -2,7 +2,6 @@
 layout: splash
 permalink: /
 hidden: true
-type: left
 #header:
 #  overlay_color: "#5e616c"
 #  overlay_image: /assets/images/mm-home-page-feature.jpg
@@ -35,5 +34,7 @@ feature_row2:
   #   btn_label: "繼續閱讀"      
   #   type: left
 ---
-
+<br>
+<br>
+<br>
 {% include feature_row id="feature_row2" type="left" %}
