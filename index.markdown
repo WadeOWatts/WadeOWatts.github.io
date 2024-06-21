@@ -2,6 +2,7 @@
 layout: splash
 permalink: /
 hidden: true
+type: left
 #header:
 #  overlay_color: "#5e616c"
 #  overlay_image: /assets/images/mm-home-page-feature.jpg
@@ -16,7 +17,7 @@ feature_row:
     url: "/views/tsm-openmic/"
     btn_class: "btn--primary"
     btn_label: "繼續閱讀"
-    type: left
+    
   # - image_path: /assets/images/2023-04-17.jpeg
   #   alt: "從《重啟人生》、《我推的孩子》討論「轉生」"
   #   title: "從《重啟人生》、《我推的孩子》討論「轉生」"
