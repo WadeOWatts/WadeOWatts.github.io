@@ -278,10 +278,15 @@ paginate_path: /page:num/
 pagination:
   # Set enabled to true to use paginate v2
   enabled: true
+  collection:
+    - study
+    - views
+    - parlor
+    - daiy
+    - cinema
   debug: false
-  collection: 'posts'
   per_page: 10
-  permalink: '/page/:num/'
+  permalink: '/:collection/:num/'
   title: ':title - page :num'
   limit: 0
   sort_field: 'date'
