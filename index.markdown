@@ -16,6 +16,7 @@ feature_row:
     url: "/views/tsm-openmic/"
     btn_class: "btn--primary"
     btn_label: "繼續閱讀"
+    type: "left"
   - image_path: /assets/images/2023-04-17.jpeg
     alt: "從《重啟人生》、《我推的孩子》討論「轉生」"
     title: "從《重啟人生》、《我推的孩子》討論「轉生」"
@@ -23,6 +24,7 @@ feature_row:
     url: "/study/tensei/"
     btn_class: "btn--primary"
     btn_label: "繼續閱讀"
+    type: "left"
   - image_path: /assets/images/2022-07-08.jpg
     alt: "Benedict Anderson《想像的共同體》"
     title: "Benedict Anderson《想像的共同體》"
@@ -30,6 +32,7 @@ feature_row:
     url: "/study/anderson/"
     btn_class: "btn--primary"
     btn_label: "繼續閱讀"      
+    type: "left"
 ---
 
 {% include feature_row %}
