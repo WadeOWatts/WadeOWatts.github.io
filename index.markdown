@@ -9,7 +9,7 @@ type: left
 #excerpt: >
 #  A flexible two-column Jekyll theme. Perfect for building personal sites, blogs, and portfolios.<br />
 #  <small><a href="https://github.com/mmistakes/minimal-mistakes/releases/tag/4.26.0">Latest release v4.26.0</a></#small>
-feature_row:
+feature_row2:
   - image_path: /assets/images/2024-02-26.jpg
     alt: "一個喜劇外行人看台語open mic"
     title: "一個喜劇外行人看台語open mic"
@@ -36,4 +36,4 @@ feature_row:
   #   type: left
 ---
 
-{% include feature_row %}
+{% include feature_row id="feature_row2" type="left" %}
