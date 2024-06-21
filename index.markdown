@@ -9,26 +9,66 @@ hidden: true
 #  A flexible two-column Jekyll theme. Perfect for building personal sites, blogs, and portfolios.<br />
 #  <small><a href="https://github.com/mmistakes/minimal-mistakes/releases/tag/4.26.0">Latest release v4.26.0</a></#small>
 feature_row:
-  - image_path: /assets/images/2024-02-26.jpg
-    alt: "一個喜劇外行人看台語open mic"
-    title: "一個喜劇外行人看台語open mic"
-    url: "/views/tsm-openmic/"
+  - image_path: /assets/images/2022-03-18.jpg
+    alt: "該死的阿修羅"
+    title: "該死的阿修羅"
+    url: "/cinema/ashura/"
     btn_class: "btn--primary"
     btn_label: "繼續閱讀"
-  - image_path: /assets/images/2023-04-17.jpeg
-    alt: "從《重啟人生》、《我推的孩子》討論「轉生」"
-    title: "從《重啟人生》、《我推的孩子》討論「轉生」"
-    url: "/study/tensei/"
+  - image_path: /assets/images/2019-09-06.jpg
+    alt: "從《夢灯籠》談《你的名字》中鏡頭與音樂的運用"
+    title: "從《夢灯籠》談《你的名字》中鏡頭與音樂的運用"
+    url: "/cinema/your-name-public/"
     btn_class: "btn--primary"
     btn_label: "繼續閱讀"
-  - image_path: /assets/images/2022-07-08.jpg
-    alt: "Benedict Anderson《想像的共同體》"
-    title: "Benedict Anderson《想像的共同體》"
-    url: "/study/anderson/"
+  - image_path: /assets/images/2020-02-28.jpg
+    alt: "聊聊所謂創作"
+    title: "聊聊所謂創作"
+    url: "/views/creativity/"
     btn_class: "btn--primary"
-    btn_label: "繼續閱讀"      
+    btn_label: "繼續閱讀"     
+feature_row_2: 
+  - image_path: /assets/images/2021-01-03.jpg
+    alt: "她們"
+    title: "她們"
+    url: "/cinema/Little_Women/"
+    btn_class: "btn--primary"
+    btn_label: "繼續閱讀"
+  - image_path: /assets/images/2020-10-01.jpeg
+    alt: "關於愛的五個層次"
+    title: "關於愛的五個層次"
+    url: "/cinema/tenkinoko-ai-five/"
+    btn_class: "btn--primary"
+    btn_label: "繼續閱讀"
+  - image_path: /assets/images/2022-07-09.jpg
+    alt: "交通解嚴遊行"
+    title: "交通解嚴遊行"
+    url: "/views/traffic-martial-law/"
+    btn_class: "btn--primary"
+    btn_label: "繼續閱讀"
+feature_row_3: 
+  - image_path: /assets/images/2020-01-22.png
+    alt: "打掃正心堂挖到老校刊"
+    title: "打掃正心堂挖到老校刊"
+    url: "/daily/school-magazine/"
+    btn_class: "btn--primary"
+    btn_label: "繼續閱讀"
+  - image_path: /assets/images/2020-09-26.jpg
+    alt: "果然我的青春戀愛喜劇搞錯了。"
+    title: "果然我的青春戀愛喜劇搞錯了。"
+    url: "/cinema/My_Teen_Romantic_Comedy_SNAFU/"
+    btn_class: "btn--primary"
+    btn_label: "繼續閱讀"
+  - image_path: /assets/images/2018-06-10.jpg
+    alt: "海闊天空的背後"
+    title: "海闊天空的背後"
+    url: "/views/back-sea/"
+    btn_class: "btn--primary"
+    btn_label: "繼續閱讀"
 
 ---
 <br>
 <br>
 {% include feature_row %}
+{% include feature_row_2 %}
+{% include feature_row_3 %}
