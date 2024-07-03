@@ -37,18 +37,10 @@ header:
 
 <style>
   .responsive-image {
-    width: 100%;
-    max-width: 800px;
+    max-width: 100%;
     height: auto;
     display: block;
     margin: 0 auto;
-  }
-
-  @media (max-width: 600px) {
-    .responsive-image {
-      width: 90%; /* 调整为比屏幕略小 */
-      margin: 0 auto;
-    }
   }
 </style>
 
