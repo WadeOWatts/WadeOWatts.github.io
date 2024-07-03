@@ -36,7 +36,7 @@ header:
 
 
 <style>
-  .responsive-image {
+  .page__content .responsive-image {
     max-width: 100%;
     height: auto;
     display: block;
